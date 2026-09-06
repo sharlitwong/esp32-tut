@@ -1,3 +1,11 @@
+/*
+ESP32 Tutorial with HC-SR04 Ultrasonic Sensor
+Last Edited: 8/21/2026 by Charlotte Wong
+
+A basic program that configures pins, then uses a distance sensor to print the 
+distance to the closest object from the sensor in cm. 
+*/ 
+
 #include <Arduino.h>
 
 const int TRIG_PIN = 10;
